@@ -69,3 +69,18 @@ figure img {
   width: 60px;
   height: 60px;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #5f7f84;
+  width: 100%;
+}
+
+footer p {
+  color: #7a9093;
+  padding: 5px 10px;
+  margin: 0;
+  width: 100%;
+  font-size: 9pt;
+}
