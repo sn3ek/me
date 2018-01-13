@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+html {
+  background: #466368;
+  background: linear-gradient(to right bottom, #648880, #293f50);
+  height: 100%;
+  width: 100%;
+}
+
+div#wrapper {
+
+}
+
+header {
+  text-align: center;
+  margin-top: 10%;
+}
+
+a {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+h1 {
+  font-size: 30pt;
+  font-weight: 100;
+}
+
+h1 > .sub {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  font-size: 14pt;
+}
+
+section#projects {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+section#projects ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+section#projects ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  padding: 0;
+  margin: 0 10px;
+}
+
+figure img {
+  border-radius:20%;
+  overflow:hidden;
+  width: 60px;
+  height: 60px;
+}
