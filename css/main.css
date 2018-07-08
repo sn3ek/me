@@ -8,7 +8,6 @@ html, body {
 html {
   background: #466368;
   background: linear-gradient(to right bottom, #648880, #293f50);
-  height: 100%;
   width: 100%;
 }
 
@@ -25,9 +24,6 @@ a {
   color: white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-}
-
 h1 {
   font-size: 30pt;
   font-weight: 100;
@@ -40,7 +36,12 @@ h1 > .sub {
   font-size: 14pt;
 }
 
-section#projects {
+h2 {
+  font-size: 20pt;
+  font-weight: 200;
+}
+
+section#projects, section#contact {
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -58,16 +59,53 @@ section#projects ul li {
   padding: 0;
 }
 
+section#contact {
+  margin: 20px auto 40px auto;
+  width: 400px;
+}
+
+section#contact ul {
+  margin: 20px auto;
+  list-style: none;
+  padding: 0;
+}
+
+section#contact ul li {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+}
+
+section#details {
+  margin: 20px auto;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #FD5290;
+}
+
 figure {
   padding: 0;
   margin: 0 10px;
 }
 
-figure img {
+figure img.logo {
   border-radius:20%;
   overflow:hidden;
   width: 60px;
   height: 60px;
+}
+
+figure img.screenshot {
+  margin: 20px 0;
+  width: 320px;
+  overflow:hidden;
 }
 
 footer {
@@ -75,6 +113,7 @@ footer {
   bottom: 0;
   border-top: 1px solid #5f7f84;
   width: 100%;
+  margin: 50px 0 0 0;
 }
 
 footer p {
