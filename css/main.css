@@ -11,10 +11,6 @@ html {
   width: 100%;
 }
 
-div#wrapper {
-
-}
-
 header {
   text-align: center;
   margin-top: 10%;
@@ -60,7 +56,7 @@ section#projects ul li {
 }
 
 section#contact {
-  margin: 20px auto 40px auto;
+  margin: 20px auto 80px auto;
   width: 400px;
 }
 
@@ -108,7 +104,14 @@ figure img.screenshot {
   overflow:hidden;
 }
 
+figure img.compilation {
+  margin: 20px 0;
+  width: 80%;
+  overflow: hidden;
+}
+
 footer {
+  background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   bottom: 0;
   border-top: 1px solid #5f7f84;
@@ -118,8 +121,8 @@ footer {
 
 footer p {
   color: #7a9093;
-  padding: 5px 10px;
+  padding: 10px 20px;
   margin: 0;
   width: 100%;
-  font-size: 9pt;
+  font-size: 1em;
 }
