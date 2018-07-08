@@ -37,7 +37,9 @@ h2 {
   font-weight: 200;
 }
 
-section#projects, section#contact {
+section#projects, 
+section#contact,
+section#privacy-policy {
   margin: 0 auto;
   padding: 0;
   text-align: center;
@@ -55,9 +57,14 @@ section#projects ul li {
   padding: 0;
 }
 
-section#contact {
+section#contact, section#privacy-policy  {
   margin: 20px auto 80px auto;
-  width: 400px;
+  max-width: 600px;
+  text-align: center;
+}
+
+section p {
+  padding: 5px 10px;
 }
 
 section#contact ul {
