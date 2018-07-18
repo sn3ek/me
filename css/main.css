@@ -120,6 +120,7 @@ figure img.compilation {
 
 figure img.download-button {
   margin: 10px auto;
+  display: block;
   width: 120px;
 }
 
