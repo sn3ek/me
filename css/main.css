@@ -99,6 +99,7 @@ figure {
 }
 
 figure img.logo {
+  margin: 10px auto;
   border-radius:20%;
   overflow:hidden;
   width: 60px;
@@ -115,6 +116,11 @@ figure img.compilation {
   margin: 20px 0;
   width: 80%;
   overflow: hidden;
+}
+
+figure img.download-button {
+  margin: 10px auto;
+  width: 120px;
 }
 
 footer {
